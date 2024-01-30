@@ -1,0 +1,78 @@
+ifconfig
+   21  sudo apt install net-tools
+   22  ifconfig
+   23  ip
+   24  ip fou
+   25  ip fou show
+   26  ip address show
+   27  route -n
+   28  ping google.com
+   29  traceroute google.com
+   30  sudo apt install traceroute
+   31  traceroute google.com
+   32  netstat -an
+   33  ss -tulpn
+   34  hostname
+   35  dig google.com
+   36  nslookup google.com
+   37  iptables -L
+   38  sudo iptables -L
+   39  tcpdump -i eth0
+   40  sudo tcpdump -i eth0
+   41  sshd
+   42  sudo apt install openssh-server
+   43  sshd
+   44  telnet google.com 80
+   45  scp
+   46  weget
+   47  wget
+   48  curl
+   49  sudo snap install curl
+   50  curl
+   51  iptraf
+   52  sudo apt install iptraf-ng
+   53  iptraf
+   54  sudo iptraf
+   55  iftop
+   56  sudo apt install iftop
+   57  iftop
+   58  sudo iftop
+   59  nmap
+   60  sudo apt install nmap
+   61  nmap
+   62  isof
+   63  ethtool
+   64  sudo apt install ethtool
+   65  ethtool
+   66  ethtool eth0
+   67  arp -a
+   68  Route
+   69  route
+   70  hostnamectl status
+   71  resolvconf -u
+   72  resolvconf -U
+   73  sudo apt install openresolv
+   74  resolvconf -U
+   75  resolvconf 
+   76  resolvconf -u
+   77  mtr google.com
+   78  iwconfig
+   79  nc -l 8080
+   80  ssh-keygen
+   81  nmcli
+   82  nmcli connection show
+   83  Nload
+   84  nload
+   85  sudo apt install nload
+   86  iperf
+   87  sudo apt install iperf
+   88  iperf
+   89  iperf --help
+   90  fping
+   91  sudo apt install fping
+   92  fping
+   93  iftop -n
+   94  nmtui
+   95  nmcli device wifi list
+   96  history
+
